@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7176123881417552732}
   - component: {fileID: 6993034974285224534}
   - component: {fileID: 3814578008339790967}
+  - component: {fileID: 3950220298665087250}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -163,3 +164,19 @@ MonoBehaviour:
   splitSpreadAngle: 30
   speedBoostMultiplier: 1.5
   maxPierces: 1
+--- !u!114 &3950220298665087250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7655279780453328577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecbd5dc2572d9174f94f210ba26baaa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glideMoveSpeed: 10
+  maxYPosition: 15
+  minYPosition: -5
+  rotationSmoothness: 5
